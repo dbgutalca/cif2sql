@@ -11,12 +11,13 @@ Additionally, the application includes scripts to:
 <h1>Requirements</h1>
 To use this tool, you need:
 
+
 •	Java 8
   https://www.java.com/en/download/ie_manual.jsp
-
+  
 •	A local copy of mmCIF files.
   A download script is included in the `download-mmcif.sh` file.
-
+  
 •	PostgreSQL (recommended).
   CIF2SQL was primarily tested using PostgreSQL as the database system.
 
