@@ -1,7 +1,7 @@
 <h1>CIF2SQL</h1>
 CIF2SQL is a Java-based tool that reads PDB files in CIF format using the CIF-Tools library and generates SQL files containing the instructions required to insert the data into a relational database.
 The tool extracts information from categories defined in the PDB Exchange Dictionary (PDBx/mmCIF) Version 5.0:
-https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Index/index.html
+https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Index/index.html.</br>
 Additionally, the application includes scripts to:
 
 - Download mmCIF files from the PDB repository to a local machine
