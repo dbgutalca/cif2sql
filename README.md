@@ -56,7 +56,7 @@ There are two ways to obtain mmCIF files:
 
 - Individual download  
   Open an RCSB PDB structure page, for example:
-  https://www.rcsb.org/structure/9ZHX
+  https://www.rcsb.org/structure/9ZHX.
   Then download the structure in `PDBx/mmCIF` format.
 - Using the download script  
   The `mmcif-download.sh` script executes an `rsync` command to download all mmCIF files available in the official PDB repository:
@@ -71,6 +71,6 @@ To use CIF2SQL, first open the `cif-files-path.txt` file and specify the directo
 java -jar cif2sql.jar
 ```
 
-After execution, a new folder will be created inside the sql-files/ directory using the execution date as its name. For example: 08-05-2026
+After execution, a new folder will be created inside the sql-files/ directory using the execution date as its name. For example: 08-05-2026.
 During subsequent executions, CIF2SQL checks the processed-files log and compares it against newly downloaded mmCIF files to avoid processing the same files multiple times.
 The generated SQL files can then be loaded into the previously created PostgreSQL database.
