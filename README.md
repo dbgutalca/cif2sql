@@ -68,8 +68,9 @@ There are two ways to obtain mmCIF files:
 
 To use CIF2SQL, first open the `cif-files-path.txt` file and specify the directory where the mmCIF files are stored. Then, open a terminal in the directory where `cif2sql.jar` is located and run:
 ```bash
-java -jar cif2sql.jar
+java -jar cif2sql.jar [path-to-sql-files]
 ```
+
 
 After execution, a new folder will be created inside the sql-files/ directory using the execution date as its name. For example: 08-05-2026.
 During subsequent executions, CIF2SQL checks the processed-files log and compares it against newly downloaded mmCIF files to avoid processing the same files multiple times.
